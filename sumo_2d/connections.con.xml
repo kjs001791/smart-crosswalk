@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<connections>
+  <crossing node="N2" edges="N2_N6 N6_N2" />
+  <crossing node="N3" edges="N3_N7 N7_N3" />
+  <crossing node="N6" edges="N6_N10 N10_N6" />
+  <crossing node="N7" edges="N7_N11 N11_N7" />
+  <crossing node="N10" edges="N6_N10 N10_N6" />
+  <crossing node="N11" edges="N7_N11 N11_N7" />
+  <crossing node="N5" edges="N5_N6 N6_N5" />
+  <crossing node="N8" edges="N7_N8 N8_N7" />
+  <crossing node="N1" edges="N1_N5 N5_N1" />
+  <crossing node="N12" edges="N12_N8 N8_N12" />
+</connections>

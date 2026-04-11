@@ -1,0 +1,15 @@
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Warning: Missing yellow phase in tlLogic 'N2', program 'custom_static' for tl-index 0 when switching to phase 4.
+Warning: Missing yellow phase in tlLogic 'N3', program 'custom_static' for tl-index 0 when switching to phase 4.
+Warning: Missing yellow phase in tlLogic 'N6', program 'custom_static' for tl-index 1 when switching to phase 4.
+Warning: Missing yellow phase in tlLogic 'N7', program 'custom_static' for tl-index 1 when switching to phase 4.
+Warning: Missing yellow phase in tlLogic 'N10', program 'custom_static' for tl-index 4 when switching to phase 4.
+Warning: Missing yellow phase in tlLogic 'N11', program 'custom_static' for tl-index 4 when switching to phase 4.
+Warning: Missing yellow phase in tlLogic 'N5', program 'custom_static' for tl-index 0 when switching to phase 4.
+Warning: Missing yellow phase in tlLogic 'N8', program 'custom_static' for tl-index 1 when switching to phase 4.
+Warning: Route file should be sorted by departure time, ignoring 'Route_B_offpeak_1'!
+Warning: Route file should be sorted by departure time, ignoring 'Route_B_peak'!
+Warning: Route file should be sorted by departure time, ignoring 'Route_C_offpeak_1'!
+Warning: Route file should be sorted by departure time, ignoring 'Route_C_peak'!
+Warning: Route file should be sorted by departure time, ignoring 'Route_D_offpeak_1'!
+Warning: Route file should be sorted by departure time, ignoring 'Route_D_peak'!

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<additional>
+  <inductionLoop id="det_cw1_in" lane="N1_N2_1" pos="175.60" freq="1" file="/Users/junlee/Desktop/2026-1/js/sumo_2d/results/det.xml" />
+  <inductionLoop id="det_cw1_out" lane="N1_N2_2" pos="175.60" freq="1" file="/Users/junlee/Desktop/2026-1/js/sumo_2d/results/det.xml" />
+  <inductionLoop id="det_cw2_in" lane="N2_N3_1" pos="175.60" freq="1" file="/Users/junlee/Desktop/2026-1/js/sumo_2d/results/det.xml" />
+  <inductionLoop id="det_cw2_out" lane="N2_N3_2" pos="175.60" freq="1" file="/Users/junlee/Desktop/2026-1/js/sumo_2d/results/det.xml" />
+  <inductionLoop id="det_cw3_in" lane="N2_N6_1" pos="119.20" freq="1" file="/Users/junlee/Desktop/2026-1/js/sumo_2d/results/det.xml" />
+  <inductionLoop id="det_cw3_out" lane="N5_N6_1" pos="175.60" freq="1" file="/Users/junlee/Desktop/2026-1/js/sumo_2d/results/det.xml" />
+  <inductionLoop id="det_cw4_in" lane="N6_N7_1" pos="175.60" freq="1" file="/Users/junlee/Desktop/2026-1/js/sumo_2d/results/det.xml" />
+  <inductionLoop id="det_cw4_out" lane="N6_N7_2" pos="175.60" freq="1" file="/Users/junlee/Desktop/2026-1/js/sumo_2d/results/det.xml" />
+  <inductionLoop id="det_cw5_in" lane="N6_N10_1" pos="119.20" freq="1" file="/Users/junlee/Desktop/2026-1/js/sumo_2d/results/det.xml" />
+  <inductionLoop id="det_cw5_out" lane="N11_N10_1" pos="175.60" freq="1" file="/Users/junlee/Desktop/2026-1/js/sumo_2d/results/det.xml" />
+  <inductionLoop id="det_cw6_in" lane="N10_N11_1" pos="175.60" freq="1" file="/Users/junlee/Desktop/2026-1/js/sumo_2d/results/det.xml" />
+  <inductionLoop id="det_cw6_out" lane="N10_N11_2" pos="175.60" freq="1" file="/Users/junlee/Desktop/2026-1/js/sumo_2d/results/det.xml" />
+  <inductionLoop id="det_cw7_in" lane="N1_N5_1" pos="119.20" freq="1" file="/Users/junlee/Desktop/2026-1/js/sumo_2d/results/det.xml" />
+  <inductionLoop id="det_cw7_out" lane="N6_N5_1" pos="175.60" freq="1" file="/Users/junlee/Desktop/2026-1/js/sumo_2d/results/det.xml" />
+  <inductionLoop id="det_cw8_in" lane="N7_N8_1" pos="175.60" freq="1" file="/Users/junlee/Desktop/2026-1/js/sumo_2d/results/det.xml" />
+  <inductionLoop id="det_cw8_out" lane="N7_N8_2" pos="175.60" freq="1" file="/Users/junlee/Desktop/2026-1/js/sumo_2d/results/det.xml" />
+  <inductionLoop id="det_cw9_in" lane="N2_N1_1" pos="175.60" freq="1" file="/Users/junlee/Desktop/2026-1/js/sumo_2d/results/det.xml" />
+  <inductionLoop id="det_cw9_out" lane="N2_N1_2" pos="175.60" freq="1" file="/Users/junlee/Desktop/2026-1/js/sumo_2d/results/det.xml" />
+  <inductionLoop id="det_cw10_in" lane="N11_N12_1" pos="175.60" freq="1" file="/Users/junlee/Desktop/2026-1/js/sumo_2d/results/det.xml" />
+  <inductionLoop id="det_cw10_out" lane="N11_N12_2" pos="175.60" freq="1" file="/Users/junlee/Desktop/2026-1/js/sumo_2d/results/det.xml" />
+</additional>

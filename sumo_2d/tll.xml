@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<additional>
+  <tlLogic id="N2" type="static" programID="custom_static" offset="0">
+    <phase duration="58" state="rrggggggrrgr" />
+    <phase duration="4" state="rryyyyyyrryr" />
+    <phase duration="3" state="rrrrrrrrrrrr" />
+    <phase duration="34" state="ggrrrrrrggrg" />
+    <phase duration="2" state="rrrrrrrrrrrr" />
+  </tlLogic>
+  <tlLogic id="N3" type="static" programID="custom_static" offset="0">
+    <phase duration="65" state="rrggggggrrgr" />
+    <phase duration="4" state="rryyyyyyrryr" />
+    <phase duration="3" state="rrrrrrrrrrrr" />
+    <phase duration="21" state="ggrrrrrrggrg" />
+    <phase duration="2" state="rrrrrrrrrrrr" />
+  </tlLogic>
+  <tlLogic id="N6" type="static" programID="custom_static" offset="0">
+    <phase duration="47" state="grgggrrgggrgggrrggr" />
+    <phase duration="4" state="yryyyrryyyryyyrryyr" />
+    <phase duration="3" state="rrrrrrrrrrrrrrrrrrr" />
+    <phase duration="35" state="rgrrrggrrrgrrrggrrg" />
+    <phase duration="2" state="rrrrrrrrrrrrrrrrrrr" />
+  </tlLogic>
+  <tlLogic id="N7" type="static" programID="custom_static" offset="0">
+    <phase duration="62" state="grgggrrgggrgggrrggr" />
+    <phase duration="4" state="yryyyrryyyryyyrryyr" />
+    <phase duration="3" state="rrrrrrrrrrrrrrrrrrr" />
+    <phase duration="25" state="rgrrrggrrrgrrrggrrg" />
+    <phase duration="2" state="rrrrrrrrrrrrrrrrrrr" />
+  </tlLogic>
+  <tlLogic id="N10" type="static" programID="custom_static" offset="0">
+    <phase duration="77" state="ggggrrgrrggr" />
+    <phase duration="4" state="yyyyrryrryyr" />
+    <phase duration="3" state="rrrrrrrrrrrr" />
+    <phase duration="22" state="rrrrggrggrrg" />
+    <phase duration="2" state="rrrrrrrrrrrr" />
+  </tlLogic>
+  <tlLogic id="N11" type="static" programID="custom_static" offset="0">
+    <phase duration="82" state="ggggrrgrrggr" />
+    <phase duration="4" state="yyyyrryrryyr" />
+    <phase duration="3" state="rrrrrrrrrrrr" />
+    <phase duration="23" state="rrrrggrggrrg" />
+    <phase duration="2" state="rrrrrrrrrrrr" />
+  </tlLogic>
+  <tlLogic id="N5" type="static" programID="custom_static" offset="0">
+    <phase duration="76" state="rggggggrgr" />
+    <phase duration="4" state="ryyyyyyryr" />
+    <phase duration="3" state="rrrrrrrrrr" />
+    <phase duration="23" state="grrrrrrgrg" />
+    <phase duration="2" state="rrrrrrrrrr" />
+  </tlLogic>
+  <tlLogic id="N8" type="static" programID="custom_static" offset="0">
+    <phase duration="80" state="grgrgggggr" />
+    <phase duration="4" state="yryryyyyyr" />
+    <phase duration="3" state="rrrrrrrrrr" />
+    <phase duration="25" state="rgrgrrrrrg" />
+    <phase duration="2" state="rrrrrrrrrr" />
+  </tlLogic>
+  <tlLogic id="N1" type="static" programID="custom_static" offset="0">
+    <phase duration="58" state="GGGr" />
+    <phase duration="4" state="yyyr" />
+    <phase duration="3" state="rrrr" />
+    <phase duration="27" state="rrrg" />
+    <phase duration="2" state="rrrr" />
+  </tlLogic>
+  <tlLogic id="N12" type="static" programID="custom_static" offset="0">
+    <phase duration="76" state="GGGr" />
+    <phase duration="4" state="yyyr" />
+    <phase duration="3" state="rrrr" />
+    <phase duration="25" state="rrrg" />
+    <phase duration="2" state="rrrr" />
+  </tlLogic>
+</additional>
