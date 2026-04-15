@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<routes>
+  <vType id="adult" vClass="pedestrian" minGap="0.25" width="0.5" length="0.25" maxSpeed="1.5" speedDev="0.1" />
+  <vType id="elderly" vClass="pedestrian" minGap="0.25" width="0.5" length="0.25" maxSpeed="1.13" speedDev="0.15" color="255,0,0" />
+  <person id="ped_0" depart="9.04" type="adult">
+    <walk from="464445691#0" to="-464445691#0" />
+  </person>
+  <person id="ped_1" depart="29.20" type="adult">
+    <walk from="464445691#0" to="-464445691#0" />
+  </person>
+  <person id="ped_2" depart="30.20" type="adult">
+    <walk from="464445691#0" to="-464445691#0" />
+  </person>
+  <person id="ped_3" depart="32.46" type="adult">
+    <walk from="464445691#0" to="-464445691#0" />
+  </person>
+  <person id="ped_4" depart="37.79" type="elderly">
+    <walk from="464445691#0" to="-464445691#0" />
+  </person>
+  <person id="ped_5" depart="39.99" type="adult">
+    <walk from="464445691#0" to="-464445691#0" />
+  </person>
+  <person id="ped_6" depart="57.38" type="elderly">
+    <walk from="464445691#0" to="-464445691#0" />
+  </person>
+</routes>
