@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-04-15T10:09:38",
+  "run_dir": "/Users/junlee/Desktop/2026-1/js/result/report_top12_seed4_2h",
+  "output_dir": "/Users/junlee/Desktop/2026-1/js/result/report_top12_seed4_2h/outputs",
+  "nets_dir": "/Users/junlee/Desktop/2026-1/js/result/report_top12_seed4_2h/sumo_nets",
+  "figures_dir": "/Users/junlee/Desktop/2026-1/js/result/report_top12_seed4_2h/figures",
+  "args": {
+    "t1": "/Users/junlee/Desktop/2026-1/js/smart_crosswalk_sumo/data/T1_accident_crosswalk.csv",
+    "t2": "/Users/junlee/Desktop/2026-1/js/smart_crosswalk_sumo/data/T2_crosswalk_features.csv",
+    "top_n": 12,
+    "seeds": [
+      42,
+      43,
+      44,
+      45
+    ],
+    "sim_duration": 7200,
+    "warmup": 300,
+    "result_root": "/Users/junlee/Desktop/2026-1/js/result",
+    "run_name": "report_top12_seed4_2h",
+    "run_dir": null,
+    "output_dir": null,
+    "nets_dir": null,
+    "figures_dir": null,
+    "force_networks": false,
+    "preprocess_only": false,
+    "skip_networks": true,
+    "skip_demand": true,
+    "skip_run": false,
+    "skip_reports": false
+  }
+}

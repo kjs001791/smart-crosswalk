@@ -1,0 +1,34 @@
+횡단보도ID,scenario,seed,step,error
+137963,smart,42,run_simulation,20
+137963,smart,43,run_simulation,Connection 'default' is already active.
+137963,smart,44,run_simulation,Connection 'default' is already active.
+21869,baseline,42,run_simulation,Connection 'default' is already active.
+21869,baseline,43,run_simulation,Connection 'default' is already active.
+21869,baseline,44,run_simulation,Connection 'default' is already active.
+21869,smart,42,run_simulation,Connection 'default' is already active.
+21869,smart,43,run_simulation,Connection 'default' is already active.
+21869,smart,44,run_simulation,Connection 'default' is already active.
+6153,baseline,42,run_simulation,Connection 'default' is already active.
+6153,baseline,43,run_simulation,Connection 'default' is already active.
+6153,baseline,44,run_simulation,Connection 'default' is already active.
+6153,smart,42,run_simulation,Connection 'default' is already active.
+6153,smart,43,run_simulation,Connection 'default' is already active.
+6153,smart,44,run_simulation,Connection 'default' is already active.
+6123,baseline,42,run_simulation,Connection 'default' is already active.
+6123,baseline,43,run_simulation,Connection 'default' is already active.
+6123,baseline,44,run_simulation,Connection 'default' is already active.
+6123,smart,42,run_simulation,Connection 'default' is already active.
+6123,smart,43,run_simulation,Connection 'default' is already active.
+6123,smart,44,run_simulation,Connection 'default' is already active.
+9650,baseline,42,run_simulation,Connection 'default' is already active.
+9650,baseline,43,run_simulation,Connection 'default' is already active.
+9650,baseline,44,run_simulation,Connection 'default' is already active.
+9650,smart,42,run_simulation,Connection 'default' is already active.
+9650,smart,43,run_simulation,Connection 'default' is already active.
+9650,smart,44,run_simulation,Connection 'default' is already active.
+6068,baseline,42,run_simulation,Connection 'default' is already active.
+6068,baseline,43,run_simulation,Connection 'default' is already active.
+6068,baseline,44,run_simulation,Connection 'default' is already active.
+6068,smart,42,run_simulation,Connection 'default' is already active.
+6068,smart,43,run_simulation,Connection 'default' is already active.
+6068,smart,44,run_simulation,Connection 'default' is already active.

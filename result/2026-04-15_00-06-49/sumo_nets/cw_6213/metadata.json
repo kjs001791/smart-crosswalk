@@ -1,0 +1,26 @@
+{
+  "cw_id": "6213",
+  "net_file": "/Users/junlee/Desktop/2026-1/js/result/2026-04-15_00-06-49/sumo_nets/cw_6213/network.net.xml",
+  "crossing_edge": ":3873291355_c1",
+  "crossing_lon": null,
+  "crossing_lat": null,
+  "tls_id": "cluster_4276316582_436883143",
+  "ped_link_indices": [],
+  "ped_route": {
+    "from_edge": "-384030401#1",
+    "to_edge": "-778973690"
+  },
+  "vehicle_conflict_edges": [
+    "-384030401#1",
+    "-778973690",
+    "384030401#0",
+    "-384030401#0",
+    "384030401#1",
+    "778973690"
+  ],
+  "approach_lanes": [
+    "-384030401#1_1",
+    "-778973690_1",
+    "384030401#0_1"
+  ]
+}

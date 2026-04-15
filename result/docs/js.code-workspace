@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "js",
+			"path": "../.."
+		},
+		{
+			"name": "data",
+			"path": "../../../../../Downloads/data"
+		}
+	],
+	"settings": {
+		"python-envs.defaultEnvManager": "ms-python.python:conda",
+		"python-envs.defaultPackageManager": "ms-python.python:conda"
+	}
+}

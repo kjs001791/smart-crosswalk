@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='utf-8'?>
+<routes>
+  <vType id="adult" vClass="pedestrian" minGap="0.25" width="0.5" length="0.25" maxSpeed="1.5" speedDev="0.1" />
+  <vType id="elderly" vClass="pedestrian" minGap="0.25" width="0.5" length="0.25" maxSpeed="1.13" speedDev="0.15" color="255,0,0" />
+  <person id="ped_0" depart="0.29" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_1" depart="2.00" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_2" depart="39.89" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_3" depart="78.72" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_4" depart="80.74" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_5" depart="107.48" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_6" depart="113.49" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_7" depart="166.04" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_8" depart="166.38" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_9" depart="215.10" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_10" depart="221.67" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_11" depart="230.10" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_12" depart="273.85" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_13" depart="274.37" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_14" depart="291.24" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_15" depart="315.20" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_16" depart="327.38" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_17" depart="330.01" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_18" depart="363.45" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_19" depart="438.20" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_20" depart="496.54" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_21" depart="498.72" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_22" depart="553.79" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_23" depart="568.71" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_24" depart="579.32" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_25" depart="645.18" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_26" depart="680.44" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_27" depart="711.35" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_28" depart="719.89" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_29" depart="726.53" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_30" depart="766.49" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_31" depart="778.80" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_32" depart="796.03" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_33" depart="831.55" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_34" depart="847.19" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_35" depart="863.08" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_36" depart="864.33" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_37" depart="881.09" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_38" depart="925.61" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_39" depart="929.07" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_40" depart="951.99" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_41" depart="956.85" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_42" depart="961.95" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_43" depart="1003.22" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_44" depart="1014.77" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_45" depart="1017.68" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_46" depart="1030.12" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_47" depart="1048.40" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_48" depart="1056.16" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_49" depart="1093.68" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_50" depart="1096.50" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_51" depart="1096.63" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_52" depart="1099.23" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_53" depart="1099.55" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_54" depart="1114.17" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_55" depart="1123.87" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_56" depart="1140.43" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_57" depart="1205.21" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_58" depart="1255.08" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_59" depart="1258.33" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_60" depart="1310.60" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_61" depart="1374.48" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_62" depart="1396.47" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_63" depart="1399.65" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_64" depart="1417.57" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_65" depart="1446.62" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_66" depart="1511.82" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_67" depart="1527.36" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_68" depart="1545.01" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_69" depart="1546.65" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_70" depart="1547.15" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_71" depart="1552.53" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_72" depart="1583.32" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_73" depart="1613.21" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_74" depart="1629.88" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_75" depart="1632.01" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_76" depart="1649.28" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_77" depart="1691.79" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_78" depart="1707.39" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_79" depart="1734.91" type="elderly">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_80" depart="1745.75" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_81" depart="1760.83" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+  <person id="ped_82" depart="1778.59" type="adult">
+    <walk from="464461055" to="-243542157" />
+  </person>
+</routes>

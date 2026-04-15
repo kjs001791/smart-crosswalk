@@ -1,0 +1,152 @@
+Parsing types from '/Library/Frameworks/EclipseSUMO.framework/Versions/1.26.0/EclipseSUMO/share/sumo/data/typemap/osmNetconvert.typ.xml' ... done.
+Parsing nodes from osm-file '/Users/junlee/Desktop/2026-1/js/result/2026-04-15_02-53-02/sumo_nets/cw_23040/map.osm' ...
+Found and substituted 23 osm nodes.
+ done (14ms).
+Parsing edges from osm-file '/Users/junlee/Desktop/2026-1/js/result/2026-04-15_02-53-02/sumo_nets/cw_23040/map.osm' ... done (10ms).
+Removing duplicate edges ... done.
+Warning: Discarding unknown compound 'usage.main' in type 'railway.subway|usage.main' (first occurrence for edge '51795972').
+Warning: Discarding unknown compound 'bus' in type 'bus|highway.busway|psv' (first occurrence for edge '331994925').
+Warning: Discarding unknown compound 'psv' in type 'bus|highway.busway|psv' (first occurrence for edge '331994925').
+Warning: Discarding unknown compound 'bus' in type 'bus|highway.busway' (first occurrence for edge '331994926').
+Warning: Discarding unusable type 'railway.platform' (first occurrence for edge '458500951').
+Warning: Discarding unknown compound 'usage.main' in type 'railway.rail|usage.main' (first occurrence for edge '923712311').
+Warning: Discarding unusable type 'railway.proposed|usage.main' (first occurrence for edge '997056568').
+Warning: Discarding unusable type 'aeroway.helipad' (first occurrence for edge '1216346308').
+Warning: Discarding unusable type 'railway.platform_edge' (first occurrence for edge '1471179692').
+Warning: Removing pt stop '12455789581' on non existing edge '923712311'.
+Warning: Removing pt stop '12455789582' on non existing edge '923712312'.
+Warning: Removing pt stop '12455789583' on non existing edge '923712311'.
+Warning: Removing pt stop '12455789584' on non existing edge '923712312'.
+Warning: Removing pt stop '12455789587' on non existing edge '923712311'.
+Parsing relations from osm-file '/Users/junlee/Desktop/2026-1/js/result/2026-04-15_02-53-02/sumo_nets/cw_23040/map.osm' ...
+Warning: PT line in relation 2894488 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line '서울 버스 100: 하계동 → 용산구청' in relation 2895724 has a gap of 10 stops, only keeping first part.
+Warning: PT line '서울 버스 150' in relation 2895731 has a gap of 14 stops, only keeping first part.
+Warning: PT line '서울 버스 151' in relation 2895735 has a gap of 8 stops, only keeping first part.
+Warning: PT line '서울 버스 152: 화계사 → 경인교육대후문' in relation 2895736 has a gap of 4 stops, only keeping first part.
+Warning: PT line in relation 2895793 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 2895887 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 2896711 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 2896719 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line '서울 버스 500' in relation 2899064 has a gap of 3 stops, only keeping first part.
+Warning: Ignoring restriction relation '8316995' with unknown from-way.
+Warning: Ignoring restriction relation '8316995' with unknown to-way.
+Warning: No way found for reference '1206223941' in relation '16305164'
+Warning: Ignoring restriction relation '16305164' with unknown to-way.
+Warning: No way found for reference '585341902' in relation '16305165'
+Warning: No way found for reference '1206223942' in relation '16305165'
+Warning: Ignoring restriction relation '16305165' with unknown from-way.
+Warning: Ignoring restriction relation '16305165' with unknown to-way.
+Warning: No way found for reference '1206223942' in relation '16305166'
+Warning: No way found for reference '477063271' in relation '16305166'
+Warning: Ignoring restriction relation '16305166' with unknown from-way.
+Warning: Ignoring restriction relation '16305166' with unknown to-way.
+Warning: Ignoring restriction relation '16305167' with unknown from-way.
+Warning: Ignoring restriction relation '16305168' with unknown to-way.
+ done (66ms).
+ Import done:
+   242 nodes loaded.
+   38 types loaded.
+   239 edges loaded.
+Proj projection parameters used: '+proj=utm +zone=52 +ellps=WGS84 +datum=WGS84 +units=m +no_defs'.
+Removing self-loops ... done (0ms).
+Processing public transport stops ...
+Warning: Could not find corresponding edge or compatible lane for free-floating pt stop '357860222' (후암삼거리). Thus, it will be removed!
+Warning: Could not find corresponding edge or compatible lane for free-floating pt stop '9796362762' (삼각지역). Thus, it will be removed!
+ done (0ms).
+Revising public transport stops based on pt lines ...
+Warning: Cannot revise pt stop localization for pt line '10565521', which has no route edges. Ignoring!
+Warning: Removed invalid stop '8675959918' from line '10565521'.
+Warning: Cannot revise pt stop localization for pt line '10685370', which has no route edges. Ignoring!
+Warning: Removed invalid stop '8414031491' from line '10685370'.
+Warning: Cannot revise pt stop localization for pt line '10685371', which has no route edges. Ignoring!
+Warning: Removed invalid stop '8675959918' from line '10685371'.
+Warning: Cannot revise pt stop localization for pt line '10685419', which consist of one way only. Ignoring!
+Warning: Removed invalid stop '3144731468' from line '10685419'.
+Warning: Cannot revise pt stop localization for pt line '10685420', which consist of one way only. Ignoring!
+Warning: Removed invalid stop '3144731468' from line '10685420'.
+Warning: Cannot revise pt stop localization for pt line '10700967', which has no route edges. Ignoring!
+Warning: Cannot revise pt stop localization for pt line '10700968', which has no route edges. Ignoring!
+Warning: Cannot revise pt stop localization for pt line '13781616', which consist of one way only. Ignoring!
+Warning: Cannot revise pt stop localization for pt line '16665966', which consist of one way only. Ignoring!
+Warning: Cannot revise pt stop localization for pt line '16712692', which consist of one way only. Ignoring!
+Warning: Could not assign stop '357855399' to pt line '2895884' (closest edge '585352852#0', distance 876.60). Ignoring!
+Warning: Could not assign stop '357855399' to pt line '2910199' (closest edge '585352852#0', distance 876.60). Ignoring!
+Warning: Could not assign stop '357855399' to pt line '8222666' (closest edge '-1339655668', distance 1089.68). Ignoring!
+ done (0ms).
+Align pt stop id signs with corresponding edge id signs ... done (0ms).
+Joining junction clusters ... done (0ms).
+ Joined 7 junction cluster(s).
+Removing empty nodes and geometry nodes ... done (1ms).
+   106 nodes removed.
+Moving network to origin ... done (1ms).
+Computing turning directions ...
+Warning: Ambiguity in turnarounds computation at junction '3352633998'.
+Warning: Ambiguity in turnarounds computation at junction '7163282906'.
+ done (0ms).
+Assigning nodes to traffic lights ... done (0ms).
+Guessing and setting on-/off-ramps ... done (0ms).
+Guessed 68 sidewalks.
+Warning: Found sharp turn with radius 4.96 at the end of edge '-384030401#2'.
+Warning: Found sharp turn with radius 4.96 at the start of edge '384030401#2'.
+Warning: Found angle of 123.27 degrees at edge '585341906#2', segment 1.
+Sorting nodes' edges ... done (0ms).
+Computing node shapes ... done (3ms).
+Computing edge shapes ... done (1ms).
+Computing node types ... done (0ms).
+Guessed 49 pedestrian crossings.
+Computing priorities ... done (0ms).
+Computing approached edges ... done (0ms).
+Guessing and setting roundabouts ... done (0ms).
+Computing approaching lanes ... done (0ms).
+Dividing of lanes on approached lanes ... done (1ms).
+Processing turnarounds ... done (0ms).
+Rechecking of lane endings ...
+Warning: Edge '767111811#2' is not connected to outgoing edges at junction '7163332424'.
+ done (0ms).
+Computing traffic light control information ... done (0ms).
+Computing node logics ... done (1ms).
+Computing traffic light logics ...
+Warning: The traffic light '11139302901' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '11139302901'
+Warning: Minor green from edge '1206220507#0' to edge '333554718' exceeds 19.44m/s. Maybe a left-turn lane is missing.
+ done (0ms).
+ 8 traffic light(s) computed.
+Building inner edges ...
+Warning: Speed of straight connection '-464445691#1_1->-464445691#0_1' reduced by 5.43 due to turning radius of 13.02 (length=1.35, angle=21.31).
+Warning: Speed of straight connection '331990404#1_0->331990404#3_0' reduced by 10.66 due to turning radius of 24.29 (length=10.82, angle=41.40).
+Warning: Speed of straight connection '376666931#1_1->376666931#2_1' reduced by 5.65 due to turning radius of 12.34 (length=5.66, angle=43.11).
+Warning: Speed of straight connection '913268036_0->1206220504#1_0' reduced by 10.95 due to turning radius of 23.10 (length=8.76, angle=37.50).
+ done (2ms).
+Find accesses for pt rail stops ... done (1ms).
+Warning: Stop '5589801221' named '서울역버스환승센터(4번승강장)' from line '2895731' on edge '333554718' is not part of the route.
+Warning: Stop '5589801221' named '서울역버스환승센터(4번승강장)' from line '2895735' on edge '333554718' is not part of the route.
+Warning: Stop '5589801221' named '서울역버스환승센터(4번승강장)' from line '2895736' on edge '333554718' is not part of the route.
+Warning: Stop '5589801221' named '서울역버스환승센터(4번승강장)' from line '2899067' on edge '333554718' is not part of the route.
+Warning: Stop '5589801221' named '서울역버스환승센터(4번승강장)' from line '2899069' on edge '333554718' is not part of the route.
+Warning: Removed 29 pt stops because they could not be assigned to the network
+-----------------------------------------------------
+Summary:
+ Node type statistics:
+  Unregulated junctions       : 0
+  Dead-end junctions          : 80
+  Priority junctions          : 39
+  Right-before-left junctions : 2
+  Traffic light junctions      : 8
+ Network boundaries:
+  Original boundary  : 126.64,37.38,127.10,37.72
+  Applied offset     : -320800.46,-4157742.98
+  Converted boundary : 0.00,0.00,496.07,873.61
+-----------------------------------------------------
+Writing network ... done (8ms).
+Warning: 7 total messages of type: Cannot revise pt stop localization for pt line '%', which consist of one way only. Ignoring!
+Warning: 51 total messages of type: Cannot revise pt stop localization for pt line '%', which has no route edges. Ignoring!
+Warning: 8 total messages of type: Discarding unknown compound '%' in type '%' (first occurrence for edge '%').
+Warning: 6 total messages of type: Ignoring restriction relation '%' with unknown to-way.
+Warning: 8 total messages of type: No way found for reference '%' in relation '%'
+Warning: 12 total messages of type: PT line '%' in relation % has a gap of % stops, only keeping first part.
+Warning: 23 total messages of type: PT line in relation % with no stops ignored. Probably OSM file is incomplete.
+Warning: 170 total messages of type: Removed invalid stop '%' from line '%'.
+Warning: 56 total messages of type: Removing pt stop '%' on non existing edge '%'.
+Warning: 10 total messages of type: Stop '%' named '%' from line '%' on edge '%' is %.
+Success.
