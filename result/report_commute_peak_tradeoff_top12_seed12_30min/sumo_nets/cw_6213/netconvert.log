@@ -1,0 +1,107 @@
+Parsing types from '/Library/Frameworks/EclipseSUMO.framework/Versions/1.26.0/EclipseSUMO/share/sumo/data/typemap/osmNetconvert.typ.xml' ... done.
+Parsing nodes from osm-file '/Users/junlee/Desktop/2026-1/js/result/report_top12_seed4_2h/sumo_nets/cw_6213/map.osm' ... done (15ms).
+Parsing edges from osm-file '/Users/junlee/Desktop/2026-1/js/result/report_top12_seed4_2h/sumo_nets/cw_6213/map.osm' ... done (13ms).
+Removing duplicate edges ... done.
+Warning: Discarding unknown compound 'usage.main' in type 'railway.subway|usage.main' (first occurrence for edge '1221943824').
+Warning: Discarding unusable type 'aeroway.helipad' (first occurrence for edge '1222690590').
+Warning: Removing pt stop '3832931179' on non existing edge '1221943825'.
+Warning: Removing pt stop '6036160340' on non existing edge '1221943824'.
+Warning: Removing pt stop '6036161314' on non existing edge '1221943824'.
+Warning: Removing pt stop '6036161326' on non existing edge '1221943824'.
+Warning: Removing pt stop '7366159452' on non existing edge '1221943825'.
+Parsing relations from osm-file '/Users/junlee/Desktop/2026-1/js/result/report_top12_seed4_2h/sumo_nets/cw_6213/map.osm' ...
+Warning: PT line in relation 2894488 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 2894490 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 2895884 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 2895887 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 2896711 with no stops ignored. Probably OSM file is incomplete.
+Warning: No way found for reference '619147726' in relation '12464132'
+Warning: No way found for reference '777881148' in relation '12464132'
+Warning: Ignoring restriction relation '12464132' with unknown from-way.
+Warning: Ignoring restriction relation '12464132' with unknown to-way.
+Warning: to-edge '1339655667' of restriction relation could not be determined
+Warning: Ignoring restriction relation '18362898'.
+Warning: No way found for reference '580350028' in relation '18362900'
+Warning: Ignoring restriction relation '18362900' with unknown from-way.
+ done (24ms).
+ Import done:
+   196 nodes loaded.
+   38 types loaded.
+   306 edges loaded.
+Proj projection parameters used: '+proj=utm +zone=52 +ellps=WGS84 +datum=WGS84 +units=m +no_defs'.
+Removing self-loops ... done (0ms).
+Processing public transport stops ... done (0ms).
+Revising public transport stops based on pt lines ...
+Warning: Could not assign stop '3832931179' to pt line '10727605' (closest edge 'NULL', distance 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.00). Ignoring!
+Warning: Could not assign stop '7366159452' to pt line '10727605' (closest edge 'NULL', distance 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.00). Ignoring!
+Warning: Removed invalid stop '3832931179' from line '10727605'.
+Warning: Removed invalid stop '7366159452' from line '10727605'.
+Warning: Could not assign stop '3832931179' to pt line '10727606' (closest edge 'NULL', distance 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.00). Ignoring!
+Warning: Could not assign stop '7366159452' to pt line '10727606' (closest edge 'NULL', distance 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.00). Ignoring!
+Warning: Removed invalid stop '3832931179' from line '10727606'.
+Warning: Removed invalid stop '7366159452' from line '10727606'.
+Warning: Could not assign stop '3832931179' to pt line '10727607' (closest edge 'NULL', distance 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.00). Ignoring!
+Warning: Removed invalid stop '3832931179' from line '10727607'.
+Warning: Cannot revise pt stop localization for pt line '16665966', which consist of one way only. Ignoring!
+ done (0ms).
+Align pt stop id signs with corresponding edge id signs ... done (0ms).
+Joining junction clusters ...
+Warning: Not joining junctions 436856448,7259737813 (only 1 edge within and no cross-traffic).
+ done (1ms).
+ Joined 11 junction cluster(s).
+Removing empty nodes and geometry nodes ... done (0ms).
+   24 nodes removed.
+Moving network to origin ... done (2ms).
+Computing turning directions ... done (0ms).
+Assigning nodes to traffic lights ... done (0ms).
+Guessing and setting on-/off-ramps ... done (0ms).
+Guessed 82 sidewalks.
+Warning: Found sharp turn with radius 4.95 at the end of edge '-384030401#1'.
+Warning: Found sharp turn with radius 4.95 at the start of edge '384030401#1'.
+Sorting nodes' edges ... done (0ms).
+Computing node shapes ... done (5ms).
+Computing edge shapes ... done (2ms).
+Computing node types ... done (0ms).
+Guessed 47 pedestrian crossings.
+Computing priorities ... done (0ms).
+Computing approached edges ... done (0ms).
+Guessing and setting roundabouts ... done (0ms).
+Computing approaching lanes ... done (0ms).
+Dividing of lanes on approached lanes ... done (1ms).
+Processing turnarounds ... done (0ms).
+Rechecking of lane endings ...
+Warning: Edge '-315658895#0' is not connected to outgoing edges at junction '3217915233'.
+Warning: Edge '1234639731' is not connected to outgoing edges at junction '11459942462'.
+Warning: Lane '315658895#0_0' is not connected from any incoming edge at junction '3217915233'.
+Warning: Edge '608932944' is not connected to outgoing edges at junction '5767950246'.
+Warning: Lane '608932944_0' is not connected from any incoming edge at junction '5768158139'.
+ done (0ms).
+Computing traffic light control information ... done (0ms).
+Computing node logics ... done (0ms).
+Computing traffic light logics ... done (0ms).
+ 6 traffic light(s) computed.
+Building inner edges ...
+Warning: Speed of straight connection '379943753#0_0->379943753#1_0' reduced by 10.19 due to turning radius of 56.29 (length=9.13, angle=24.42).
+Warning: Speed of straight connection '1339697075#6_0->1339697074_0' reduced by 12.12 due to turning radius of 44.57 (length=17.62, angle=38.06).
+ done (2ms).
+Find accesses for pt rail stops ... done (0ms).
+Warning: Removed 5 pt stops because they could not be assigned to the network
+-----------------------------------------------------
+Summary:
+ Node type statistics:
+  Unregulated junctions       : 0
+  Dead-end junctions          : 90
+  Priority junctions          : 56
+  Right-before-left junctions : 7
+  Traffic light junctions      : 6
+ Network boundaries:
+  Original boundary  : 126.97,37.55,126.99,37.56
+  Applied offset     : -320494.20,-4157449.01
+  Converted boundary : 0.00,0.00,1275.08,1521.38
+-----------------------------------------------------
+Writing network ... done (11ms).
+Warning: 22 total messages of type: Could not assign stop '%' to pt line '%' (closest edge '%', distance %). Ignoring!
+Warning: 19 total messages of type: PT line in relation % with no stops ignored. Probably OSM file is incomplete.
+Warning: 41 total messages of type: Removed invalid stop '%' from line '%'.
+Warning: 10 total messages of type: Removing pt stop '%' on non existing edge '%'.
+Success.

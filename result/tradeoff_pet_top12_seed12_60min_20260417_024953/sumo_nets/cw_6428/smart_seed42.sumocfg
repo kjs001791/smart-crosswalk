@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configuration>
+  <input>
+    <net-file value="/Users/junlee/Desktop/2026-1/js/result/tradeoff_pet_top12_seed12_60min_20260417_024953/sumo_nets/cw_6428/network.net.xml" />
+    <route-files value="/Users/junlee/Desktop/2026-1/js/result/tradeoff_pet_top12_seed12_60min_20260417_024953/sumo_nets/cw_6428/routes_seed42.rou.xml,/Users/junlee/Desktop/2026-1/js/result/tradeoff_pet_top12_seed12_60min_20260417_024953/sumo_nets/cw_6428/peds_seed42.rou.xml" />
+  </input>
+  <time>
+    <begin value="0" />
+    <end value="3900" />
+    <step-length value="1.0" />
+  </time>
+  <processing>
+    <time-to-teleport value="300" />
+    <pedestrian.model value="striping" />
+  </processing>
+  <report>
+    <no-step-log value="true" />
+    <duration-log.disable value="true" />
+  </report>
+</configuration>

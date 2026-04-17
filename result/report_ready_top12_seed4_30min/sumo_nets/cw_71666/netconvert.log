@@ -1,0 +1,83 @@
+Parsing types from '/Library/Frameworks/EclipseSUMO.framework/Versions/1.26.0/EclipseSUMO/share/sumo/data/typemap/osmNetconvert.typ.xml' ... done.
+Parsing nodes from osm-file '/Users/junlee/Desktop/2026-1/js/result/report_top12_seed4_2h/sumo_nets/cw_71666/map.osm' ...
+Found and substituted 4 osm nodes.
+ done (10ms).
+Parsing edges from osm-file '/Users/junlee/Desktop/2026-1/js/result/report_top12_seed4_2h/sumo_nets/cw_71666/map.osm' ... done (10ms).
+Removing duplicate edges ... done.
+Parsing relations from osm-file '/Users/junlee/Desktop/2026-1/js/result/report_top12_seed4_2h/sumo_nets/cw_71666/map.osm' ...
+Warning: PT line in relation 2894490 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 2894583 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 2895724 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 2895884 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 2895887 with no stops ignored. Probably OSM file is incomplete.
+Warning: No way found for reference '218662402' in relation '12390337'
+Warning: No way found for reference '913009310' in relation '12390337'
+Warning: Ignoring restriction relation '12390337' with unknown from-way.
+Warning: Ignoring restriction relation '12390337' with unknown to-way.
+Warning: No way found for reference '218662402' in relation '12390338'
+Warning: No way found for reference '218662402' in relation '12390338'
+Warning: Ignoring restriction relation '12390338' with unknown from-way.
+Warning: Ignoring restriction relation '12390338' with unknown to-way.
+ done (12ms).
+ Import done:
+   119 nodes loaded.
+   38 types loaded.
+   255 edges loaded.
+Proj projection parameters used: '+proj=utm +zone=52 +ellps=WGS84 +datum=WGS84 +units=m +no_defs'.
+Removing self-loops ... done (0ms).
+Processing public transport stops ... done (0ms).
+Align pt stop id signs with corresponding edge id signs ... done (0ms).
+Joining junction clusters ...
+Warning: Not joining junctions 1327210817,3846495771 (parallel incoming -117914351#0,381447834#0).
+Warning: Not joining junctions 3846533653,3846533655 (parallel incoming -381452104#0,-381452108#0).
+ done (1ms).
+ Joined 6 junction cluster(s).
+Removing empty nodes and geometry nodes ... done (0ms).
+   8 nodes removed.
+Moving network to origin ... done (7ms).
+Computing turning directions ... done (1ms).
+Assigning nodes to traffic lights ... done (0ms).
+Guessing and setting on-/off-ramps ... done (0ms).
+Guessed 140 sidewalks.
+Warning: Found angle of 112.62 degrees at edge '-218773868#0', segment 0.
+Warning: Found angle of 112.62 degrees at edge '913009312#9', segment 1.
+Sorting nodes' edges ... done (0ms).
+Computing node shapes ... done (6ms).
+Computing edge shapes ... done (3ms).
+Computing node types ... done (0ms).
+Guessed 109 pedestrian crossings.
+Computing priorities ... done (0ms).
+Computing approached edges ... done (0ms).
+Guessing and setting roundabouts ... done (0ms).
+Computing approaching lanes ... done (0ms).
+Dividing of lanes on approached lanes ... done (0ms).
+Processing turnarounds ... done (1ms).
+Rechecking of lane endings ...
+Warning: Lane '-420345569_1' is not connected from any incoming edge at junction '4202840399'.
+Warning: Edge '-768494774' is not connected to outgoing edges at junction '11124281662'.
+Warning: Lane '768494774_0' is not connected from any incoming edge at junction '11124281662'.
+ done (0ms).
+Computing traffic light control information ... done (0ms).
+Computing node logics ... done (3ms).
+Computing traffic light logics ... done (0ms).
+ 1 traffic light(s) computed.
+Building inner edges ...
+Warning: Speed of straight connection '244215552#1_0->520307306_0' reduced by 12.61 due to turning radius of 27.91 (length=10.09, angle=36.31).
+ done (5ms).
+Find accesses for pt rail stops ... done (0ms).
+-----------------------------------------------------
+Summary:
+ Node type statistics:
+  Unregulated junctions       : 0
+  Dead-end junctions          : 50
+  Priority junctions          : 51
+  Right-before-left junctions : 1
+  Traffic light junctions      : 1
+ Network boundaries:
+  Original boundary  : 127.00,37.56,127.01,37.56
+  Applied offset     : -323590.61,-4158699.42
+  Converted boundary : 0.00,0.00,683.07,630.68
+-----------------------------------------------------
+Writing network ... done (19ms).
+Warning: 16 total messages of type: PT line in relation % with no stops ignored. Probably OSM file is incomplete.
+Success.

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>중구 스마트 횡단보도 후보 지도</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>#map { height: 92vh; } body { margin: 0; font-family: sans-serif; }</style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+const map = L.map('map').setView([37.56077117288361, 127.012909195722], 14);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
+const markers = [{"횡단보도ID": 9494, "lat": 37.56537909712678, "lon": 127.02194057271991, "risk_score": 6.298197792295562}, {"횡단보도ID": 71666, "lat": 37.5616890539837, "lon": 127.00612715243489, "risk_score": 5.3818315828266075}, {"횡단보도ID": 8430, "lat": 37.55524536754036, "lon": 127.01065986201122, "risk_score": 5.298197792295562}];
+for (const item of markers) {
+  L.circleMarker([item.lat, item.lon], {radius: 6, color: '#b30000'})
+    .bindPopup(`횡단보도ID: ${item["횡단보도ID"]}<br>risk_score: ${Number(item.risk_score).toFixed(3)}`)
+    .addTo(map);
+}
+</script>
+</body>
+</html>

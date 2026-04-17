@@ -1,0 +1,87 @@
+Parsing types from '/Library/Frameworks/EclipseSUMO.framework/Versions/1.26.0/EclipseSUMO/share/sumo/data/typemap/osmNetconvert.typ.xml' ... done.
+Parsing nodes from osm-file '/Users/junlee/Desktop/2026-1/js/result/report_top12_seed4_2h/sumo_nets/cw_6428/map.osm' ... done (13ms).
+Parsing edges from osm-file '/Users/junlee/Desktop/2026-1/js/result/report_top12_seed4_2h/sumo_nets/cw_6428/map.osm' ... done (11ms).
+Removing duplicate edges ... done.
+Parsing relations from osm-file '/Users/junlee/Desktop/2026-1/js/result/report_top12_seed4_2h/sumo_nets/cw_6428/map.osm' ...
+Warning: PT line in relation 2896719 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 5220911 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 5658251 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 6024954 with no stops ignored. Probably OSM file is incomplete.
+Warning: Ignoring restriction relation '19897182' with unknown from-way.
+Warning: No way found for reference '379943749' in relation '19897183'
+Warning: No way found for reference '379943749' in relation '19897183'
+Warning: Ignoring restriction relation '19897183' with unknown from-way.
+Warning: Ignoring restriction relation '19897183' with unknown to-way.
+Warning: No way found for reference '357958295' in relation '19897184'
+Warning: No way found for reference '357958295' in relation '19897184'
+Warning: Ignoring restriction relation '19897184' with unknown from-way.
+Warning: Ignoring restriction relation '19897184' with unknown to-way.
+ done (11ms).
+ Import done:
+   112 nodes loaded.
+   38 types loaded.
+   196 edges loaded.
+Proj projection parameters used: '+proj=utm +zone=52 +ellps=WGS84 +datum=WGS84 +units=m +no_defs'.
+Removing self-loops ... done (0ms).
+Processing public transport stops ... done (0ms).
+Align pt stop id signs with corresponding edge id signs ... done (0ms).
+Joining junction clusters ...
+Warning: Not joining junctions 10253014031,436830990 (only 1 entry node).
+Warning: Reducing junction cluster 12775800689,13339947003,3873291339,436856291 (parallel incoming -464763971#2,1339697074#0).
+ done (0ms).
+ Joined 2 junction cluster(s).
+Removing empty nodes and geometry nodes ... done (1ms).
+   7 nodes removed.
+Moving network to origin ... done (1ms).
+Computing turning directions ...
+Warning: Ambiguity in turnarounds computation at junction '5514919130'.
+ done (0ms).
+Assigning nodes to traffic lights ... done (0ms).
+Guessing and setting on-/off-ramps ... done (0ms).
+Guessed 64 sidewalks.
+Warning: Found angle of 108.63 degrees at edge '-775222468#0', segment 17.
+Warning: Found angle of 108.63 degrees at edge '775222468#0', segment 37.
+Sorting nodes' edges ... done (0ms).
+Computing node shapes ... done (4ms).
+Computing edge shapes ... done (0ms).
+Computing node types ... done (0ms).
+Guessed 43 pedestrian crossings.
+Computing priorities ... done (0ms).
+Computing approached edges ... done (0ms).
+Guessing and setting roundabouts ... done (0ms).
+Computing approaching lanes ... done (0ms).
+Dividing of lanes on approached lanes ... done (1ms).
+Processing turnarounds ... done (0ms).
+Rechecking of lane endings ...
+Warning: Edge '-244475343#0' is not connected to outgoing edges at junction '2517905733'.
+Warning: Edge '1233842483#1' is not connected to outgoing edges at junction '11449715053'.
+Warning: Lane '769488211_1' is not connected from any incoming edge at junction '4595627512'.
+ done (0ms).
+Computing traffic light control information ... done (0ms).
+Computing node logics ... done (0ms).
+Computing traffic light logics ... done (1ms).
+ 3 traffic light(s) computed.
+Building inner edges ...
+Warning: Speed of straight connection '1379887973#0_0->1379887973#1_0' reduced by 12.53 due to turning radius of 17.07 (length=5.17, angle=33.19).
+Warning: Speed of straight connection '1339697074#1_0->379943751_0' reduced by 6.11 due to turning radius of 85.38 (length=5.58, angle=18.78).
+Warning: Speed of straight connection '1339697074#1_1->379943751_1' reduced by 8.24 due to turning radius of 69.45 (length=4.53, angle=18.78).
+Warning: Speed of straight connection '1339697074#1_2->244399270_0' reduced by 10.92 due to turning radius of 36.06 (length=3.51, angle=20.70).
+Warning: Speed of straight connection '1339697075#1_0->1339697074#0_0' reduced by 12.10 due to turning radius of 44.70 (length=17.62, angle=37.99).
+ done (1ms).
+Find accesses for pt rail stops ... done (0ms).
+-----------------------------------------------------
+Summary:
+ Node type statistics:
+  Unregulated junctions       : 0
+  Dead-end junctions          : 56
+  Priority junctions          : 37
+  Right-before-left junctions : 7
+  Traffic light junctions      : 3
+ Network boundaries:
+  Original boundary  : 126.98,37.55,126.99,37.56
+  Applied offset     : -321282.22,-4157411.59
+  Converted boundary : 0.00,0.00,1025.89,1474.52
+-----------------------------------------------------
+Writing network ... done (7ms).
+Warning: 7 total messages of type: Speed of % connection '%' reduced by % due to turning radius of % (length=%, angle=%).
+Success.

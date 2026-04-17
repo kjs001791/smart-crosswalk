@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-04-16T00:50:31",
+  "purpose": "보고서용 baseline/smart 비교 결과 생성",
+  "preset": {
+    "top_n": 4,
+    "seeds": [
+      42,
+      43
+    ],
+    "sim_duration": 1800,
+    "warmup": 300,
+    "traci_step_length": 1.0,
+    "demand_profile": "seoul_commute_peak",
+    "analysis_minutes": 30.0,
+    "sumo_runs": 16
+  },
+  "network_mode": "reuse",
+  "reuse_nets_dir": "/Users/junlee/Desktop/2026-1/js/result/report_top12_seed4_2h/sumo_nets",
+  "pipeline_args": {
+    "t1": "/Users/junlee/Desktop/2026-1/js/smart_crosswalk_sumo/data/T1_accident_crosswalk.csv",
+    "t2": "/Users/junlee/Desktop/2026-1/js/smart_crosswalk_sumo/data/T2_crosswalk_features.csv",
+    "top_n": 4,
+    "seeds": [
+      42,
+      43
+    ],
+    "sim_duration": 1800,
+    "warmup": 300,
+    "traci_step_length": 1.0,
+    "demand_profile": "seoul_commute_peak",
+    "result_root": "/Users/junlee/Desktop/2026-1/js/result",
+    "run_name": "commute_peak_pilot_top4_seed2_30min",
+    "run_dir": null,
+    "output_dir": null,
+    "nets_dir": "/Users/junlee/Desktop/2026-1/js/result/commute_peak_pilot_top4_seed2_30min/sumo_nets",
+    "figures_dir": null,
+    "force_networks": false,
+    "preprocess_only": false,
+    "skip_networks": true,
+    "skip_demand": false,
+    "skip_run": false,
+    "skip_reports": false
+  }
+}
