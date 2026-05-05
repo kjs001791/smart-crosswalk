@@ -18,7 +18,9 @@ ELDERLY_POP_GU    = RAW_DIR / "elderly_pop_gu.csv"
 ELDERLY_POP_DONG    = RAW_DIR / "elderly_pop_dong.csv"
 NODE_LINK_DIR  = RAW_DIR / "node_link"
 MOCT_LINK_SHP  = NODE_LINK_DIR / "MOCT_LINK.shp"
+MOCT_NODE_SHP  = NODE_LINK_DIR / "MOCT_NODE.shp"
 TRAFFIC_DIR    = RAW_DIR / "traffic_volume"
+DONG_MAPPING_CSV = RAW_DIR / "dong_mapping.csv"  # 국가데이터처 법정동-행정동 연계정보 (cp949)
 
 # processed 파일
 T1_PATH        = PROCESSED_DIR / "T1_accident_crosswalk.csv"

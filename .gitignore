@@ -9,3 +9,7 @@ data/raw/*
 
 data/processed/*
 !data/processed/README.md
+TODO.md
+CLAUDE.md
+.claude
+*.log
